@@ -11,13 +11,13 @@ body {
 	}
 a 
 	{
-	color:#01bfc1;
+	color:#01bfc1; text-decoration: none;
 	}
 .box 
 	{
 	color:white; padding-right: 20px; padding-left: 20px;
 	padding-top: 10px; padding-bottom: 10px; margin-left: 15px;
-	background-color:#01bfc1; border-radius: 3px;
+	background-color:#01bfc1; border-radius: 3px; text-decoration: none;
 	}
 .p2 
 	{
@@ -35,7 +35,7 @@ a
 	{
 	border-color:white; border-style:solid; 
 	border-width: 5px;
-	width:35%; float: right; margin-right: 100px; 
+	width:45%; height: 600px; float: right; margin-right: 100px; 
 	}
 article {
 	border-bottom: 1px solid #31393b; width:80%;
