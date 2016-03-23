@@ -1,17 +1,17 @@
 h2 {
-	color:white; 
-	font-family: 'QuatroSlab', serif;
+	color:white;
+	font-family: 'QuatroSlab', serif; font-size: 36pt;
 	}
 body {
 	background-color:#1a2325;
 	}
 .p1 {
 	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
-	display: block; width: 350px;
+	display: block; width: 350px; font-size: 16pt; 
 	}
 a 
 	{
-	color:#01bfc1; text-decoration: none;
+	color:#01bfc1; text-decoration: none; font-size: 14pt;
 	}
 .box 
 	{
@@ -24,23 +24,30 @@ a
 	color:#a1a4a4; font-family: 'LFTEtica Book', sans-serif;
 	display: inline; margin-right: 10px;
 	padding-right: 100px; padding-top: 0px; display: block;
-	width: 300px;
+	width: 300px; font-size: 16pt; margin-bottom: 40px;
 	}
 .p3 
 	{
-	color:white; font-family: 'LFTEtica Book', sans-serif;
-	font-size: 15px;
+	color:white; font-family: 'QuatroSlab', serif;
+	font-size: 15px; font-size: 22pt;
 	}
 .img 
 	{
 	border-color:white; border-style:solid; 
 	border-width: 5px;
-	width:45%; height: 600px; float: right; margin-right: 100px; 
+	width:45%; float: right; margin-right: 100px;
+	margin-top: 50px; 
 	}
 article {
 	border-bottom: 1px solid #31393b; width:80%;
 	padding: 1px; margin-left: 30px; margin-right: 100px;
-	margin-bottom: 150px; padding-bottom: 200px; 
+	margin-bottom: 150px; padding-bottom: 100px; 
+	}
+.line {
+	border-bottom: 1px solid #31393b; width:40%;
+	padding: 0px; margin-left: 0px; margin-right: 100px;
+	margin-bottom: 20px; padding-bottom: 20px; border-style: dotted; border-top: 0px; 
+	border-left: 0px; border-right: 0px;
 	}
 h1 {
 	border-top: 1px solid #f8695a; width:100%;
