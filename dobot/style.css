@@ -57,3 +57,57 @@ h1 {
 body {
   font-family: 'LFTEtica Book', sans-serif;
 }
+
+
+p, h2 {
+  transition-duration: 2s;
+}
+
+@media (max-width: 450px) {
+  .p2 
+	{
+	color:#a1a4a4; font-family: 'LFTEtica Book', sans-serif;
+	display: inline; margin-right: 10px;
+	padding-right: 100px; padding-top: 0px; display: block;
+	width: 300px; font-size: 32pt; margin-bottom: 40px;
+	}
+  
+.p3 
+	{
+	color:white; font-family: 'QuatroSlab', serif;
+	font-size: 30px; font-size: 22pt;
+	}
+
+h2 {
+	color:white;
+	font-family: 'QuatroSlab', serif; font-size: 72pt;
+	}
+.p1 {
+	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
+	display: block; width: 350px; font-size: 32pt; 
+	}
+
+@media (min-width: 450px) {
+  .p2 
+	{
+	color:#a1a4a4; font-family: 'LFTEtica Book', sans-serif;
+	display: inline; margin-right: 10px;
+	padding-right: 100px; padding-top: 0px; display: block;
+	width: 300px; font-size: 16pt; margin-bottom: 40px;
+	}
+  
+.p3 
+	{
+	color:white; font-family: 'QuatroSlab', serif;
+	font-size: 15px; font-size: 22pt;
+	}
+
+h2 {
+	color:white;
+	font-family: 'QuatroSlab', serif; font-size: 36pt;
+	}
+.p1 {
+	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
+	display: block; width: 350px; font-size: 16pt; 
+	}
+
