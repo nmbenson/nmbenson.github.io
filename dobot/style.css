@@ -1,17 +1,17 @@
 h2 {
 	color:white;
-	font-family: 'QuatroSlab', serif; font-size: 36pt;
+	font-family: 'QuatroSlab', serif;
 	}
 body {
 	background-color:#1a2325;
 	}
 .p1 {
 	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
-	display: block; width: 350px; font-size: 16pt; 
+	display: block; width: 350px; font-size: 16px; 
 	}
 a 
 	{
-	color:#01bfc1; text-decoration: none; font-size: 14pt;
+	color:#01bfc1; text-decoration: none; font-size: 14px;
 	}
 .box 
 	{
@@ -59,55 +59,75 @@ body {
 }
 
 
-p, h2 {
-  transition-duration: 2s;
-}
+
 
 @media (max-width: 450px) {
- .p2 
-	{
-	color:#a1a4a4; font-family: 'LFTEtica Book', sans-serif;
-	display: inline; margin-right: 10px;
-	padding-right: 100px; padding-top: 0px; display: block;
-	width: 300px; font-size: 16pt; margin-bottom: 40px;
-	}
-  
-.p3 
-	{
-	color:white; font-family: 'QuatroSlab', serif;
-	font-size: 15px; font-size: 22pt;
-	}
+ 	h2
+ 		{ font-size:16px;
+ 		}
 
-h2 {
-	color:white;
-	font-family: 'QuatroSlab', serif; font-size: 36pt;
-	}
-.p1 {
-	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
-	display: block; width: 350px; font-size: 16pt; 
+ 	.p1
+ 		{ font-size:12px;
+
+ 		}
+ 	.p2
+ 		{ font-size:12px;
+
+ 		}
+ 	.p3
+ 		{ font-size:18px;
+
+ 		}
+ 	a
+ 		{ font-size:10px;
+
+ 		}
 	}
 
 @media (min-width: 450px) {
-  .p2 
-	{
-	color:#a1a4a4; font-family: 'LFTEtica Book', sans-serif;
-	display: inline; margin-right: 10px;
-	padding-right: 100px; padding-top: 0px; display: block;
-	width: 300px; font-size: 14px; margin-bottom: 40px;
-	}
-  
-.p3 
-	{
-	color:white; font-family: 'QuatroSlab', serif;
-	font-size: 15px; font-size: 12px;
-	}
+	h2
+	{font-size:36px;
 
-h2 {
-	color:white;
-	font-family: 'QuatroSlab', serif; font-size: 14px;
-	}
-.p1 {
-	font-family: 'LFTEtica Book', sans-serif; color:#989b9b;
-	display: block; width: 350px; font-size: 8px; 
-	}
+ 		}
+ 	.p1
+ 		{ font-size:16px;
+
+ 		}
+ 	.p2
+ 		{font-size:16px; color: #a1a4a4;
+font-family: 'LFTEtica Book', sans-serif;
+display: inline;
+padding-top: 0px;
+display: block;
+font-size: 16pt;
+margin-bottom: 40px;
+
+ 		}
+ 	.p3
+ 		{ font-size:22px;
+
+ 		}
+ 	a
+ 		{ font-size:14px;
+
+ 		}
+ 	.img { border-color: white;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+
+ 	}
+ 	article{
+ 		border-bottom: 1px solid #31393b;
+		margin-left: 30px;
+		padding-bottom: 100px;
+
+ 	}
+}
+
+h2, .p1, .p2, .p3, a, article, .img { 
+	transition-duration: 2s;
+}
+
 
