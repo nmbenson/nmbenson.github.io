@@ -86,7 +86,7 @@ body {
 
 @media (min-width: 450px) {
 	h2
-	{font-size:36px;
+	{font-size:36px; 
 
  		}
  	.p1
@@ -115,7 +115,6 @@ margin-bottom: 40px;
 	margin-top: 50px;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	padding-bottom: 30px;
 
  	}
  	article{
