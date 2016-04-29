@@ -22,10 +22,9 @@ footer {
 }
 	
 	}
-.logo 
+logo 
 	{
-	width:100%; float: top-left;
-	}
+	float: top-left;	}
 a 
 	{
 	color:#01bfc1; text-decoration: none; font-size: 14pt;
