@@ -56,7 +56,7 @@ footer { background-color: #1F1F1F;
 
 .logo 
 	{
-	float: top-left;	
+	float: top-left; width: 20%;
 }
 
 .footer2 
@@ -65,22 +65,33 @@ footer { background-color: #1F1F1F;
 	padding-right: 20px; opacity: 0.5; padding-top: 30px;
 
 	}
-.box 
+.box
 	{
-	color:white; padding-right: 20px; padding-left: 20px;
+	color:white; padding-right: 25px; padding-left: 25px;
 	padding-top: 10px; padding-bottom: 10px; margin-left: 15px;
-	background-color:#01bfc1; border-radius: 3px; text-decoration: none;
+	background-color: black; border-radius: 3px; text-decoration: none;
 	}
-img 
+.imgbox 
+	{
+	width: 50%; float: left;
+	margin-top: 0px; 
+	}
+.img 
 	{
 	width: 20%; float: left;
 	margin-top: 0px; 
 	}
-article {
-	border-bottom: 1px solid #31393b; width:80%;
-	padding: 1px; margin-left: 30px; margin-right: 100px;
-	margin-bottom: 150px; padding-bottom: 100px; 
+.article {
+	border-bottom: 0px solid #31393b; width:40%;
+	padding: 1px; margin-left: 0px; margin-right: 0px;
+	padding-bottom: 100px; 
 	}
+.article2 {
+	border-bottom: 0px solid #31393b; width:40%;
+	padding: 1px; margin-left: 0px; margin-right: 0px;
+	margin-bottom: 150px; padding-bottom: 100px; background-color: black;
+	border-radius: 2px;
+}
 .line {
 	border-bottom: 3px solid #A6D8EB; width:6%;
 	padding: 0px; margin-right: 0px;  box-shadow: 0.5;
@@ -150,10 +161,21 @@ section {
 /* END DROP DOWN MENU */
 
 body{
-background-imag: url(../final/freshmixes/highlight; ?>) repeat; width: 100%;
+background-imag: url(../final/freshmixes/highlight; ?>) no-repeat; width: 100%;
 }
 
 .copy {
 	opacity: 0.5; font-size: 14px;
+}
+
+.scroll {
+	float: right; position: relative; width: 20%; top: 0px;
+background-color: black; padding-right: 20px; padding-left: 20px;
+	padding-top: 10px; padding-bottom: 10px; margin-left: 15px;
+	background-color: black; border-radius: 0px; text-decoration: none;
+}
+
+p{ font-size: 14px;
+
 }
 
