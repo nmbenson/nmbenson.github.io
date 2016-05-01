@@ -24,7 +24,7 @@ nav { background-color: #1F1F1F; margin-left: 0px; margin-top: 0px;
 
 .footer2 {
 background-color: #1F1F1F; margin-left: 0px; margin-bottom: 0px;
-	padding: 20px; position: fixed; box-shaodw: 0.5; margin-right: 0px;
+	 position: fixed; box-shaodw: 0.5; margin-right: 0px;
 	margin-left: 0px; color: #01bfc1;
 	width:100%; float: left;
     bottom:0px; left:0px;
@@ -43,9 +43,10 @@ footer { background-color: #1F1F1F; margin-left: 0px; margin-top: 0px;
 
 .nav-link { font-size: 20px; float: right; padding-right: 10px;
 
-	padding-top: 6px; margin-right: 35px; color: #A6D8EB;
+	padding-top: 6px; margin-right: 35px; color: #A6D8EB; opacity: 0.5;
 
 }
+
 	
 	}
 .logo 
@@ -73,10 +74,16 @@ article {
 	margin-bottom: 150px; padding-bottom: 100px; 
 	}
 .line {
-	border-bottom: 1px solid #31393b; width:40%;
-	padding: 0px; margin-left: 0px; margin-right: 100px;
-	margin-bottom: 20px; padding-bottom: 20px; border-style: dotted; border-top: 0px; 
-	border-left: 0px; border-right: 0px;
+	border-bottom: 3px solid #31393b; width:6%;
+	padding: 0px; margin-left: 0px; 
+	margin-bottom: 20px; padding-bottom: 20px; border-top: 0px; 
+	border-left: 0px; border-right: 0px; float: right;
+	}
+.line2 {
+	border-bottom: 2px solid #31393b; width:20%;
+	padding: 0px; margin-left: 0px;
+	margin-bottom: 20px; padding-bottom: 20px; border-top: 0px; 
+	border-left: 0px; border-right: 0px; opacity: 0.5; float: right;
 	}
 section {
 	border-top: 1px solid #f8695a; width:100%;
