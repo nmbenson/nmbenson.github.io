@@ -89,9 +89,17 @@ footer { background-color: #1F1F1F;
 .article2 {
 	border-bottom: 0px solid #31393b; width:40%; margin-top: 550px;
 	padding: 5px; margin-left: 0px; margin-right: 0px;
-	margin-bottom: 100px; padding-bottom: 30px; background-color: black;
-	border-radius: 3px;
+	margin-bottom: 100px; padding-bottom: 45px; background-color: black;
+	border-radius: 5px;
 }
+
+.article:hover { color:red; background-color: red; 
+}
+.article2:hover { color: black; background-color: red;	
+}
+.imgbox:hover { opacity: 0.5;	
+}
+
 .line {
 	border-bottom: 3px solid #A6D8EB; width:5%; padding-right: 5px;
 	padding: 0px; margin-right: 0px;  box-shadow: 0.5;
@@ -170,7 +178,7 @@ background-imag: url(../final/freshmixes/highlight; ?>) no-repeat; width: 100%;
 
 .scroll {
 	float: right; position: relative; width: 20%; top: 0px;
-background-color: black; padding-right: 20px; padding-left: 20px;
+	background-color: black; padding-right: 20px; padding-left: 20px;
 	padding-top: 10px; padding-bottom: 10px; margin-left: 15px;
 	background-color: black; border-radius: 3px; text-decoration: none;
 }
@@ -178,10 +186,9 @@ background-color: black; padding-right: 20px; padding-left: 20px;
 .textbox{ font-size: 18px; margin-left: 100px; padding: 5px; padding-left: 200px;
 
 }
-h3 { margin-left: 200px; padding-left:100px; margin-left: 100px; padding: 5px;
+h3 { padding-left: 200px; margin-left: 295px; padding: 5px;
 
 }
-section { height: 900px;
+section { height: 900px; width: 1200px;
 
 }
-
