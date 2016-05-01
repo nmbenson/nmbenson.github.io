@@ -11,10 +11,13 @@ nav { background-color: #1F1F1F; margin-left: 0px; margin-top: 0px;
     top:0px; left:0px;
 	}
 .nav-link:hover { color:red;
-
+}
+.nav-link2:hover { color:red;
+}
+.nav-link3:hover { color:red;
 }
 
-.nav-link { font-size: 20px; float: right; padding-right: 10px;
+.nav-link, .nav-link2, .nav-link3 { font-size: 20px; float: right; padding-right: 10px;
 
 	padding-top: 6px; margin-right: 35px; color: #A6D8EB;
 
@@ -25,34 +28,42 @@ nav { background-color: #1F1F1F; margin-left: 0px; margin-top: 0px;
 .footer2 {
 	background-color: #1F1F1F; position: fixed;
 	 box-shaodw: 0.5; color: #01bfc1; float: right; 
-	 margin-left: 60px; opacity: 0.5;
+	 margin-left: 60px; padding-top: 35px; 
 }
 
-footer { background-color: #1F1F1F; margin-top: 0px;
+footer { background-color: #1F1F1F;
 	padding: 15px; position: fixed; box-shaodw: 0.5; margin-right: 0px;
-	width:100%; 
+	width:100%;
     bottom:0px; left:0px;
 	}
 
 .nav-link:hover { color:red;
 
 }
-
-.nav-link { font-size: 20px; float: right; padding-right: 10px;
-
-	padding-top: 6px; margin-right: 35px; color: #A6D8EB; opacity: 0.5;
+.footer2:hover { color:red;
 
 }
 
-	
-	}
+.nav-link { font-size: 20px; float: right; padding-right: 10px;
+
+	padding-top: 6px; margin-right: 35px; color: #A6D8EB; text-decoration: none;
+
+}
+.nav-link2, .nav-link3 { font-size: 20px; float: right; padding-right: 10px;
+
+	padding-top: 6px; margin-right: 35px; color: #A6D8EB; opacity: 0.5; text-decoration: none;
+}
+
 .logo 
 	{
-	float: top-left;	}
-a 
+	float: top-left;	
+}
+
+.footer2 
 	{
 	color:#A6D8EB; text-decoration: none; font-size: 18px;
-	padding-right: 20px; opacity: 0.5;
+	padding-right: 20px; opacity: 0.5; padding-top: 30px;
+
 	}
 .box 
 	{
@@ -121,22 +132,42 @@ section {
 }
 
 .dropdown-content a {
-    color: white;
+    color: red;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #9a0000}
+.dropdown-content a:hover {background-color: #e60000}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #9a0000;
+    background-color: #e60000;
 }
 /* END DROP DOWN MENU */
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
 
 
 
