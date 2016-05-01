@@ -7,7 +7,22 @@
     <title>Freshmixes</title>
     <meta charset="UTF-8">
   </head>
-<body background="../final/freshmixes/bg1.jpg">
+<body background="../final/freshmixes/highlight/3.jpg">
+  <!-- RANDOM BACKGROUND-->
+    <script type="text/javascript"> 
+        var totalCount = 8;
+        function ChangeIt() 
+        {
+        var num = Math.ceil( Math.random() * totalCount );
+        document.body.background = '../final/freshmixes/highlight/'+num+'.jpg';
+        document.body.style.backgroundRepeat = "repeat";// Background repeat
+        }
+    </script>
+    <script type="text/javascript"> 
+      ChangeIt();
+    </script>
+<!-- RANDOM BACKGROUND-->
+
   <nav>
     <img src="../final/freshmixes/fulllogo.png" class="logo">
       <a href="index.html" class="nav-link">Home</a>
@@ -30,25 +45,12 @@
     <a href="#">Link 3</a>
   </div>
 </div>
-      <div class="line2"></div><div class="line"></div>
+      <div class="line"></div><div class="line2"></div>
 
   </nav>
-
   <section>
 
-    <img href="../freshmixes.ddns.net/Freshmixes/Gallery/2016/04.09.16 Toy Story 3/toy story 3 001.jpg" alt="photo1"</a> 
   </section>
-
-  <section>
-
-    <img href="../freshmixes.ddns.net/Freshmixes/Gallery/2016/04.09.16 Toy Story 3/toy story 3 001.jpg" alt="photo1"</a> 
-  </section>
-
-  <section>
-
-    <img href="../freshmixes.ddns.net/Freshmixes/Gallery/2016/04.09.16 Toy Story 3/toy story 3 001.jpg" alt="photo1"</a> 
-  </section>
-
 <footer id="footer">
       <a href="http://freshmixes.tumblr.com"><img src="../final/freshmixes/tumblr-icon-white.png" alt="Facebook" class="social"></a>
       <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a><div>
@@ -56,6 +58,7 @@
       <a href="staff.html" class="footer2">Staff</a>
       <a href="contact.html" class="footer2">Contact</a>
       <a href="signup.html" class="footer2">Sign Up</a>
+      <p class="copy"> &copy;2002 Freshmixes</p>
     </div>
 </footer>
 

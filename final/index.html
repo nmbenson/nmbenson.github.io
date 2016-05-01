@@ -7,7 +7,23 @@
     <title>Freshmixes</title>
     <meta charset="UTF-8">
   </head>
-<body background="../final/freshmixes/bg1.jpg">
+<body background="../final/freshmixes/highlight/3.jpg">
+  <!-- RANDOM BACKGROUND-->
+    <script type="text/javascript"> 
+        var totalCount = 8;
+        function ChangeIt() 
+        {
+        var num = Math.ceil( Math.random() * totalCount );
+        document.body.background = '../final/freshmixes/highlight/'+num+'.jpg';
+        document.body.style.backgroundRepeat = "repeat";// Background repeat
+        }
+    </script>
+    <script type="text/javascript"> 
+      ChangeIt();
+    </script>
+<!-- RANDOM BACKGROUND-->
+
+<!-- NAVIGATION-->
 	<nav>
 		<img src="../final/freshmixes/fulllogo.png" class="logo">
 			<a href="index.html" class="nav-link">Home</a>
@@ -30,25 +46,20 @@
     <a href="#">Link 3</a>
   </div>
 </div>
-			<div class="line2"></div><div class="line"></div>
+			<div class="line"></div><div class="line2"></div>
 
 	</nav>
+<!-- NAVIGATION-->
 	<section>
-
-
-    <div class="w3-content" style="max-width:800px;position:relative">
-
-<img class="mySlides" src="../final/freshmixes/highlight/img_2247.jpg" style="width:100%">
-<img class="mySlides" src="img_lights.jpg" style="width:100%">
-<img class="mySlides" src="img_mountains.jpg" style="width:100%">
-<img class="mySlides" src="img_forest.jpg" style="width:100%">
-
-<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-
-</div>
-
+    <article>
+      <img src="cats.jpg" alt="Cats">
+    </article><article>
+      <img src="cats.jpg" alt="Cats222">
+    </article>
+     <article>
+      <img src="cats.jpg" alt="Cats">
   </section>
+
 <footer id="footer">
 			<a href="http://freshmixes.tumblr.com"><img src="../final/freshmixes/tumblr-icon-white.png" alt="Facebook" class="social"></a>
 			<a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a><div>
@@ -56,7 +67,8 @@
 			<a href="staff.html" class="footer2">Staff</a>
 			<a href="contact.html" class="footer2">Contact</a>
 			<a href="signup.html" class="footer2">Sign Up</a>
-		</div>
+		  <p class="copy"> &copy;2002 Freshmixes</p>
+    </div>
 </footer>
 
 
