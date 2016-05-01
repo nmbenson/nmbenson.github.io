@@ -44,7 +44,7 @@ footer { background-color: #1F1F1F;
 
 }
 
-.nav-link { font-size: 20px; float: right; padding-right: 10px;
+.nav-link { font-size: 20px; float: right; padding-right: 10px; font-family: 'Dosis-bold';
 
 	padding-top: 6px; margin-right: 35px; color: #A6D8EB; text-decoration: none;
 
@@ -73,8 +73,8 @@ footer { background-color: #1F1F1F;
 	}
 .imgbox 
 	{
-	width: 50%; float: left;
-	margin-top: 0px; 
+	width: 50%; float: left; border-radius: 3px;
+	margin-top: 0px; margin-bottom: 5px; padding-bottom: 5px;
 	}
 .img 
 	{
@@ -83,20 +83,20 @@ footer { background-color: #1F1F1F;
 	}
 .article {
 	border-bottom: 0px solid #31393b; width:40%;
-	padding: 1px; margin-left: 0px; margin-right: 0px;
+	padding: 5px; margin-left: 0px; margin-right: 0px;
 	padding-bottom: 100px; 
 	}
 .article2 {
-	border-bottom: 0px solid #31393b; width:40%;
-	padding: 1px; margin-left: 0px; margin-right: 0px;
-	margin-bottom: 150px; padding-bottom: 100px; background-color: black;
-	border-radius: 2px;
+	border-bottom: 0px solid #31393b; width:40%; margin-top: 550px;
+	padding: 5px; margin-left: 0px; margin-right: 0px;
+	margin-bottom: 100px; padding-bottom: 30px; background-color: black;
+	border-radius: 3px;
 }
 .line {
-	border-bottom: 3px solid #A6D8EB; width:6%;
+	border-bottom: 3px solid #A6D8EB; width:5%; padding-right: 5px;
 	padding: 0px; margin-right: 0px;  box-shadow: 0.5;
 	margin-bottom: 20px; padding-bottom: 20px; border-top: 0px; 
-	border-left: 0px; border-right: 0px; float: right;
+	border-left: 0px; border-right: 0px; float: right; border-radius: 3px;
 	}
 .line2 {
 	border-bottom: 2px solid #31393b; width:20%;
@@ -172,10 +172,16 @@ background-imag: url(../final/freshmixes/highlight; ?>) no-repeat; width: 100%;
 	float: right; position: relative; width: 20%; top: 0px;
 background-color: black; padding-right: 20px; padding-left: 20px;
 	padding-top: 10px; padding-bottom: 10px; margin-left: 15px;
-	background-color: black; border-radius: 0px; text-decoration: none;
+	background-color: black; border-radius: 3px; text-decoration: none;
 }
 
-p{ font-size: 14px;
+.textbox{ font-size: 18px; margin-left: 100px; padding: 5px; padding-left: 200px;
+
+}
+h3 { margin-left: 200px; padding-left:100px; margin-left: 100px; padding: 5px;
+
+}
+section { height: 900px;
 
 }
 
