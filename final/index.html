@@ -30,7 +30,6 @@
 			<a href="manifesto.html" class="nav-link2">Manifesto</a>
 			<a href="events.html" class="nav-link3" >
 			Events</a>
-      <div class="line"></div><div class="line2"></div>
 			<div class="dropdown">
   <button class="dropbtn" href="music.html">Music</button>
   <div class="dropdown-content">
@@ -67,7 +66,7 @@
 <!-- NAVIGATION-->
 
 <!-- CONTENT HOME-->
-<a class="scroll" href="#news">&darr;Scroll Down for Latest Updates&darr;</a>
+<div id="scroll"> <a class="scroll" href="#news">&darr;Scroll Down for Latest Updates&darr;</a></div>
   <section>
      <article class="article2" id="news">
       <img src="../final/freshmixes/04.09.16_Toy_Story_3/file15.jpg" alt="Toy Story" href="../final/freshmixes/04.09.16_Toy_Story_3/file15.jpg" class="imgbox">
@@ -126,6 +125,14 @@ return false;
  
 })
  
+});
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 50) {
+         $('#scroll').hide();
+     }
+     else {
+         $('#scroll').show();
+     }
 });
  
 </script>
