@@ -63,7 +63,7 @@ footer { background-color: #1F1F1F;
 	{
 	color:#A6D8EB; text-decoration: none; font-size: 18px;
 	padding-right: 20px; opacity: 0.5; padding-top: 30px;
-
+	float: right; top: 0px;
 	}
 .box
 	{
@@ -81,21 +81,41 @@ footer { background-color: #1F1F1F;
 	width: 20%; float: left;
 	margin-top: 0px; 
 	}
-.article {
+.article2 {
+	border-bottom: 0px solid #31393b; width:40%; margin-top: 600px;
+	padding: 5px; margin-left: 0px; margin-right: 0px;
+	margin-bottom: 0px; padding-bottom: 45px; background-color: black;
+	border-radius: 5px;
 	border-bottom: 0px solid #31393b; width:40%;
 	padding: 5px; margin-left: 0px; margin-right: 0px;
-	padding-bottom: 100px; 
-	}
-.article2 {
-	border-bottom: 0px solid #31393b; width:40%; margin-top: 550px;
-	padding: 5px; margin-left: 0px; margin-right: 0px;
-	margin-bottom: 100px; padding-bottom: 45px; background-color: black;
-	border-radius: 5px;
+	padding-bottom: 45px; 
 }
 
+.music {
+	border-bottom: 0px solid #31393b; width:40%; margin-top: -169px;
+	padding: 5px; margin-left: 600px; margin-right: 0px;
+	margin-bottom: 0px; background-color: black; height: 18%;
+	border-radius: 5px;
+	margin-right: 0px;
+	padding-bottom: 1px;
+}
+
+.musicpic 
+	{
+	width: 50%; border-radius: 3px; margin-right: 20px;
+	 margin-bottom: 0px; 
+	 margin-top: 0px; padding-top: 0px; margin-bottom: 0px;
+	}
 .article:hover { color:red; background-color: red; 
 }
 .article2:hover { color: black; background-color: red;	
+}
+.imgbox:hover { opacity: 0.5;	
+}
+
+.music:hover { color:red; background-color: red; 
+}
+.musicpic:hover { color: black; background-color: red;	
 }
 .imgbox:hover { opacity: 0.5;	
 }
@@ -173,7 +193,7 @@ background-imag: url(../final/freshmixes/highlight; ?>) no-repeat; width: 100%;
 }
 
 .copy {
-	opacity: 0.5; font-size: 14px;
+	opacity: 0.5; font-size: 14px; float: right;
 }
 
 .scroll {
@@ -192,3 +212,4 @@ h3 { padding-left: 200px; margin-left: 295px; padding: 5px;
 section { height: 900px; width: 1200px;
 
 }
+

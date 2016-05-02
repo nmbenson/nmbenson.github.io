@@ -53,13 +53,13 @@
 
 <!-- CONTENT HOME-->
   <section>
-    <article>
-    </article>
-    <article>
-    </article>
-     <article class="article2">
+     <article class="article2" id="news">
       <img src="../final/freshmixes/04.09.16_Toy_Story_3/Toy Story 3 009.jpg" alt="Toy Story" href="../final/freshmixes/04.09.16_Toy_Story_3/Toy Story 3 009.jpg" class="imgbox">
       <h3>Latest Uploads</h2><p class="textbox">Toy Story 04.09.16</p>
+      </article>
+      <article class="music">
+      <img src="../final/freshmixes/04.09.16_Toy_Story_3/Toy Story 3 009.jpg" alt="Toy Story" href="../final/freshmixes/04.09.16_Toy_Story_3/Toy Story 3 009.jpg" class="musicpic">
+      <h3 class="h3">Latest Uploads</h3><p class="textbox">Toy Story 04.09.16</p>
       </article>
   </section>
 <!-- CONTENT HOME-->
@@ -71,9 +71,48 @@
 			<a href="staff.html" class="footer2">Staff</a>
 			<a href="contact.html" class="footer2">Contact</a>
 			<a href="signup.html" class="footer2">Sign Up</a>
-      <p class="copy">&copy;2002 Freshmixes</p>
+      <p class="copy">&copy; 2002 Freshmixes</p>
     </div>
-    <p class="scroll">&darr;Scroll Down for Latest Updates&darr;</p>
+    <a class="scroll" href="#news">&darr;Scroll Down for Latest Updates&darr;</a>
+    <script>
+ 
+jQuery(document).ready(function() {
+ 
+var offset = 300;
+ 
+var duration = 50;
+ 
+jQuery(window).scroll(function() {
+ 
+if (jQuery(this).scrollTop() > offset) {
+ 
+jQuery(‘.copy’).fadeIn(duration);
+ 
+} else {
+ 
+jQuery(‘.copy’).fadeOut(duration);
+ 
+}
+ 
+});
+ 
+&nbsp;
+ 
+jQuery(‘.copy’).click(function(event) {
+ 
+event.preventDefault();
+ 
+jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+ 
+return false;
+ 
+})
+ 
+});
+ 
+</script>
+<script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+
 </footer>
 
 
