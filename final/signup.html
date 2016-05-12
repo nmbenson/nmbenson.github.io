@@ -8,6 +8,11 @@
     <meta charset="UTF-8">
   </head>
 <body background="../final/freshmixes/highlight/3.jpg">
+
+
+
+
+
   <!-- RANDOM BACKGROUND-->
     <script type="text/javascript"> 
         var totalCount = 8;
@@ -24,7 +29,7 @@
 <!-- RANDOM BACKGROUND-->
 
   <nav>
-    <img src="../final/freshmixes/fulllogo.png" class="logo">
+    <a href="../final/index.html"><img src="../final/freshmixes/fulllogo.png" class="logo"></a>
       <a href="index.html" class="nav-link">Home</a>
       <a href="manifesto.html" class="nav-link2">Manifesto</a>
       <a href="events.html" class="nav-link3" >
@@ -34,7 +39,6 @@
   <div class="dropdown-content">
     <a href="#">Freshmixes DJs/a>
     <a href="#">Live Sets / Mixes /a>
-    <a href="#">Link 3</a>
   </div>
 </div>
       <div class="dropdown">
@@ -51,16 +55,60 @@
   <section>
 
   </section>
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter email", "freshmixes@gmail.com");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "Thank you!";
+    }
+}
+</script>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <button type="cancel" onclick="javascript:window.location='../final/index.html';">Cancel</button>
+    <h4 class="Sign">Freshmixes Sign Up!</h4>
+    <form action="MAILTO:freshmixes@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br><br>
+E-mail:<br>
+<input type="text" name="Email" value="your email">
+<input type="submit" value="Send">
+    </div>
+  </div>
+
+      <p class="copy"> &copy;2002 Freshmixes</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
 <footer id="footer">
       <a href="http://freshmixes.tumblr.com"><img src="../final/freshmixes/tumblr-icon-white.png" alt="Facebook" class="social"></a>
       <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a><div>
       <a href="sponser.html" class="footer2">Sponsers</a>
       <a href="staff.html" class="footer2">Staff</a>
       <a href="contact.html" class="footer2">Contact</a>
-      <a href="signup.html" class="footer2">Sign Up</a>
-      <p class="copy"> &copy;2002 Freshmixes</p>
-    </div>
+     
+
+  <a class="button" href="#popup1">Sign Up</a>
+</div>
 </footer>
+
 
 
 

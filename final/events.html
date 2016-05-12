@@ -10,43 +10,139 @@
 <body background="../final/freshmixes/bg1.jpg">
   <nav>
     <img src="../final/freshmixes/fulllogo.png" class="logo">
-      <a href="index.html" class="nav-link">Home</a>
       <a href="manifesto.html" class="nav-link2">Manifesto</a>
       <a href="events.html" class="nav-link3" >
       Events</a>
       <div class="dropdown">
   <button class="dropbtn" href="music.html">Music</button>
   <div class="dropdown-content">
-    <a href="#">Freshmixes DJs/a>
-    <a href="#">Live Sets / Mixes /a>
-    <a href="#">Link 3</a>
+    <a href="#">Freshmixes DJs</a>
+    <a href="#">Live Sets / Mixes </a>
   </div>
 </div>
       <div class="dropdown">
   <button class="dropbtn" href="photos.html">Photos</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <div class="dropdown-content" href="photos.html">
+    <a href="photos.html">2016</a>
+    <a href="#">2015</a>
+    <a href="#">2014</a>
+    <a href="#">2013</a>
+    <a href="#">2012</a>
+    <a href="#">2011</a>
+    <a href="#">2010</a>
+    <a href="#">2009</a>
+    <a href="#">2008</a>
+    <a href="#">2007</a>
+    <a href="#">2006</a>
+    <a href="#">2005</a>
+    <a href="#">2004</a>
+    <a href="#">2003</a>
+    <a href="#">2002</a>
   </div>
 </div>
       <div class="line2"></div><div class="line"></div>
 
   </nav>
   <section>
+  <table width="90%" border="0" align="center">
 
-    <img href="../freshmixes.ddns.net/Freshmixes/Gallery/2016/04.09.16 Toy Story 3/toy story 3 001.jpg" alt="photo1"</a> 
+  <tbody><h1 class="year"></h1>
+  <tr> 
+
+    <td align="center"><p><a href="https://www.facebook.com/events/1652276365060090/"><img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13116480_1182618425095934_4642786347038246057_o.jpg" width="350px" height="250" alt="Toy Story 3" title="Kandiland"></a>
+
+      <a href="https://www.facebook.com/hydrotechnicsfestival/"><img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13217294_1061451620598296_3874913967491577125_o.jpg" width="350px" height="250" alt="Hydrotechnics" title="Hydrotechnics"></a>
+
+      <a href="https://www.facebook.com/events/751790081621938/"><img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13047806_10153544411261711_3634012570520563801_o.jpg" width="350px" height="250" alt="RO" title="Go Beserk"></a></p>
+
+      
+    </p>
+
+</tbody></table>
   </section>
 <footer id="footer">
       <a href="http://freshmixes.tumblr.com"><img src="../final/freshmixes/tumblr-icon-white.png" alt="Facebook" class="social"></a>
-      <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a><div>
+      <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a>
       <a href="sponser.html" class="footer2">Sponsers</a>
       <a href="staff.html" class="footer2">Staff</a>
-      <a href="contact.html" class="footer2">Contact</a>
-      <a href="signup.html" class="footer2">Sign Up</a>
-      <p class="copy"> &copy;2002 Freshmixes</p>
+      <a href="mailto:freshmixes@gmail.com?Subject=Hello%20again" target="_top" class="footer2">Contact</a>
+      <a class="button" href="#popup1">Sign Up</a>
+
+<a id="footer2"></a>
+
+      <p class="copy">&copy; 2002 Freshmixes</p>
+    
+    <script>
+ 
+jQuery(document).ready(function() {
+ 
+var offset = 300;
+ 
+var duration = 50;
+ 
+jQuery(window).scroll(function() {
+ 
+if (jQuery(this).scrollTop() > offset) {
+ 
+jQuery(‘.copy’).fadeIn(duration);
+ 
+} else {
+ 
+jQuery(‘.copy’).fadeOut(duration);
+ 
+}
+ 
+});
+ 
+&nbsp;
+ 
+jQuery(‘.copy’).click(function(event) {
+ 
+event.preventDefault();
+ 
+jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+ 
+return false;
+ 
+})
+ 
+});
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 50) {
+         $('#scroll').hide();
+     }
+     else {
+         $('#scroll').show();
+     }
+});
+ 
+</script>
+<script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter email", "freshmixes@gmail.com");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "Thank you!";
+    }
+}
+</script>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <button type="cancel" onclick="javascript:window.location='../final/events.html';">Cancel</button>
+    <h4 class="Sign">Freshmixes Sign Up!</h4>
+    <form action="MAILTO:freshmixes@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br><br>
+E-mail:<br>
+<input type="text" name="Email" value="your email">
+<input type="submit" value="Send">
     </div>
-</footer>
+  </div>
+    </div>
 
 
 

@@ -87,7 +87,7 @@
 			<a href="sponser.html" class="footer2">Sponsers</a>
 			<a href="staff.html" class="footer2">Staff</a>
 			<a href="mailto:freshmixes@gmail.com?Subject=Hello%20again" target="_top" class="footer2">Contact</a>
-      <a href="signup.html" class="footer2">Sign Up</a>
+      <a class="button" href="#popup1">Sign Up</a>
 
 <a id="footer2"></a>
 
@@ -139,6 +139,31 @@ $(window).bind('scroll', function() {
  
 </script>
 <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter email", "freshmixes@gmail.com");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "Thank you!";
+    }
+}
+</script>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <button type="cancel" onclick="javascript:window.location='../final/index.html';">Cancel</button>
+    <h4 class="Sign">Freshmixes Sign Up!</h4>
+    <form action="MAILTO:freshmixes@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br><br>
+E-mail:<br>
+<input type="text" name="Email" value="your email">
+<input type="submit" value="Send">
+    </div>
+  </div>
+    </div>
 
 </footer>
 

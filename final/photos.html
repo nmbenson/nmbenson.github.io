@@ -16,29 +16,28 @@
       <div class="dropdown">
   <button class="dropbtn" href="music.html">Music</button>
   <div class="dropdown-content">
-    <a href="#">Freshmixes DJs/a>
-    <a href="#">Live Sets / Mixes /a>
-    <a href="#">Link 3</a>
+    <a href="#">Freshmixes DJs</a>
+    <a href="#">Live Sets / Mixes </a>
   </div>
 </div>
       <div class="dropdown">
   <button class="dropbtn" href="photos.html">Photos</button>
-  <div class="dropdown-content">
-    <a href="#">2016</a>
+  <div class="dropdown-content" href="photos.html">
+    <a href="photos.html">2016</a>
     <a href="#">2015</a>
     <a href="#">2014</a>
     <a href="#">2013</a>
     <a href="#">2012</a>
     <a href="#">2011</a>
     <a href="#">2010</a>
-    <a href="#">3009</a>
-    <a href="#">3008</a>
-    <a href="#">3007</a>
-    <a href="#">3006</a>
-    <a href="#">3005</a>
-    <a href="#">3004</a>
-    <a href="#">3003</a>
-    <a href="#">3002</a>
+    <a href="#">2009</a>
+    <a href="#">2008</a>
+    <a href="#">2007</a>
+    <a href="#">2006</a>
+    <a href="#">2005</a>
+    <a href="#">2004</a>
+    <a href="#">2003</a>
+    <a href="#">2002</a>
   </div>
 </div>
       <div class="line2"></div><div class="line"></div>
@@ -54,7 +53,7 @@
   <tbody><h1 class="year">2016</h1>
   <tr> 
 
-    <td align="center"><p><a href="../final/freshmixes/04.09.16_toy_story_3/file15.jpg"><img src="../final/freshmixes/04.09.16_toy_story_3/file15.jpg" width="350px" height="250" alt="Toy Story 3" title="Toy Story 3"></a>
+    <td align="center"><p><a href="https://photos.google.com/share/AF1QipMZDOn-9Mel7D0lQbFw_0B0MbebnyeTGkNRpisXUvNIabsDOylsdJaGKD1F9wQfVA?key=Unp0ZlJKTnNGQUx6eXNMcS04Z2huc1FYdkFMVHBR"><img src="../final/freshmixes/04.09.16_toy_story_3/file15.jpg" width="350px" height="250" alt="Toy Story 3" title="Toy Story 3"></a>
 
       <a href="../final/freshmixes/04.02.16_fooled_ya/file1.jpg"><img src="../final/freshmixes/04.02.16_fooled_ya/file1.jpg" width="350px" height="250" alt="Fooled Ya"></a><a href="../final/freshmixes/03.26.16_DSOTN/file1.jpg"><img src="../final/freshmixes/03.26.16_DSOTN/file1.jpg" width="350px" height="250" alt="DSOTN 3/26"></a><a href="../final/freshmixes/02.27.16_jungle_massive_2/file1.jpg"><img src="../final/freshmixes/02.27.16_jungle_massive_2/file1.jpg" width="350px" height="250" alt="Jungle Massive 2 2/27"></a>
   <a href="../final/freshmixes/02.15.16_hardline/file1.jpg"><img src="../final/freshmixes/02.15.16_hardline/file1.jpg" width="350px" height="250" alt="Hardline 2/15"></a><a href="../final/freshmixes/01.02.16_flight_617/file1.jpg"><img src="../final/freshmixes/01.02.16_flight_617/file1.jpg" width="350px" height="250" alt="Flight 617 1/2"></a></p>
@@ -64,14 +63,87 @@
   </section>
 <footer id="footer">
       <a href="http://freshmixes.tumblr.com"><img src="../final/freshmixes/tumblr-icon-white.png" alt="Facebook" class="social"></a>
-      <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a><div>
+      <a href="http://facebook.com/freshmixesphotography"><img src="../final/freshmixes/fb-icon-white.png" alt="Facebook" class="social"></a>
       <a href="sponser.html" class="footer2">Sponsers</a>
       <a href="staff.html" class="footer2">Staff</a>
-      <a href="contact.html" class="footer2">Contact</a>
-      <a href="signup.html" class="footer2">Sign Up</a>
-       <p class="copy">&copy; 2002 Freshmixes</p>
+      <a href="mailto:freshmixes@gmail.com?Subject=Hello%20again" target="_top" class="footer2">Contact</a>
+      <a class="button" href="#popup1">Sign Up</a>
+
+<a id="footer2"></a>
+
+      <p class="copy">&copy; 2002 Freshmixes</p>
+    
+    <script>
+ 
+jQuery(document).ready(function() {
+ 
+var offset = 300;
+ 
+var duration = 50;
+ 
+jQuery(window).scroll(function() {
+ 
+if (jQuery(this).scrollTop() > offset) {
+ 
+jQuery(‘.copy’).fadeIn(duration);
+ 
+} else {
+ 
+jQuery(‘.copy’).fadeOut(duration);
+ 
+}
+ 
+});
+ 
+&nbsp;
+ 
+jQuery(‘.copy’).click(function(event) {
+ 
+event.preventDefault();
+ 
+jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+ 
+return false;
+ 
+})
+ 
+});
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 50) {
+         $('#scroll').hide();
+     }
+     else {
+         $('#scroll').show();
+     }
+});
+ 
+</script>
+<script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter email", "freshmixes@gmail.com");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "Thank you!";
+    }
+}
+</script>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <button type="cancel" onclick="javascript:window.location='../final/photos.html';">Cancel</button>
+    <h4 class="Sign">Freshmixes Sign Up!</h4>
+    <form action="MAILTO:freshmixes@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br><br>
+E-mail:<br>
+<input type="text" name="Email" value="your email">
+<input type="submit" value="Send">
     </div>
-</footer>
+  </div>
+    </div>
 
 
 
